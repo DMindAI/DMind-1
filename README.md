@@ -7,16 +7,16 @@
 <hr>
 
 <div align="center">
-    <a href="https://img.shields.io/badge/DMind-Homepage-blue?logo=data:image/svg+xml;base64,)">
+    <a href="">
     <img alt="DMind Website" src="https://img.shields.io/badge/DMind-Homepage-blue?logo=data:image/svg+xml;base64,)"/>
   </a>
   <a href="https://huggingface.co/datasets/DMindAI/DMind-1">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-DMind_1-yellow?logo=huggingface"/>
+    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-DMind--1-ffd21f?color=ffd21f&logo=huggingface"/>
   </a> 
-  <a href="https://x.com/dmindai">
+  <a href="https://x.com/dmind_ai">
     <img alt="X" src="https://img.shields.io/badge/X-@dmindai-1DA1F2?logo=x"/>
   </a> 
-    <a href="YOUR_CHAT_LINK">
+    <a href="https://openrouter.ai/chat">
     <img alt="Chat"
       src="https://img.shields.io/badge/🤖%20Chat-DMind-536af5?color=536af5&logoColor=white"/>
   </a>
@@ -41,6 +41,7 @@
 - [4. Quickstart](#4-quickstart)
   - [4.1 Model Downloads](#41-model-downloads)
   - [4.2 OpenRouter API](#42-openrouter-api)
+  - [4.3 OpenRouter Web Chat](#43-openrouter-web-chat)
 - [License](#license)
 - [Contact](#contact)
 
@@ -95,7 +96,7 @@ This multi-level distillation strategy allows DMind-1-mini to maintain high Web3
 
 ## 2. Evaluation Results
 
-![DMind-1 Web3 Performance](figures/dmind-1-web3-performance.png)
+![DMind-1 Web3 Performance](figures/dmind-1-web3-performance.jpeg)
 
 We evaluate DMind-1 using the **DMind Benchmark**, a domain-specific evaluation suite tailored to assess large language models in the Web3 context. The benchmark spans 1,917 expert-reviewed questions across nine critical categories—including Blockchain Fundamentals, Infrastructure, Smart Contracts, DeFi, DAO, NFT, Token Economics, Meme, and Security. It combines multiple-choice and subjective open-ended tasks, simulating real-world challenges and requiring deep contextual understanding, which provides a comprehensive assessment of both factual knowledge and advanced reasoning.
 
@@ -174,6 +175,15 @@ curl https://openrouter.ai/api/v1/chat/completions \
 - Replace `YOUR_API_KEY` with your actual OpenRouter API key.
 - Change the `model` field to `dmind-1` or `dmind-1-mini` as needed.
 - Both models support the same API structure for easy integration.
+
+### 4.3 OpenRouter Web Chat
+
+You can try **DMind-1** and **DMind-1-mini** instantly using the [OpenRouter Web Chat](https://openrouter.ai/chat).
+
+- Select your desired model from the dropdown menu (**DMind-1** and **DMind-1-mini**).
+- Enter your prompt and interact with the model in real time.
+
+[![OpenRouter Chat](https://img.shields.io/badge/🤖%20Try%20on-OpenRouter%20Chat-536af5?color=536af5&logoColor=white)](https://openrouter.ai/chat)
 
 ## License
 - The code repository and model weights for DMind-1 and DMind-1-mini are released under the MIT License.
