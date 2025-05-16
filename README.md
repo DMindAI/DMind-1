@@ -10,14 +10,19 @@
     <a href="https://img.shields.io/badge/DMind-Homepage-blue?logo=data:image/svg+xml;base64,)">
     <img alt="DMind Website" src="https://img.shields.io/badge/DMind-Homepage-blue?logo=data:image/svg+xml;base64,)"/>
   </a>
-  <a href="https://huggingface.co/datasets/DMindAI/DMind_Benchmark">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-DMind_Benchmark-yellow?logo=huggingface"/>
+  <a href="https://huggingface.co/datasets/DMindAI/DMind-1">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-DMind_1-yellow?logo=huggingface"/>
   </a> 
   <a href="https://x.com/dmindai">
     <img alt="X" src="https://img.shields.io/badge/X-@dmindai-1DA1F2?logo=x"/>
   </a> 
-  <a href="https://www.apache.org/licenses/LICENSE-2.0">
-    <img alt="Apache 2.0" src="https://img.shields.io/badge/Apache%202.0-blue.svg"/>
+    <a href="YOUR_CHAT_LINK">
+    <img alt="Chat"
+      src="https://img.shields.io/badge/🤖%20Chat-DMind-536af5?color=536af5&logoColor=white"/>
+  </a>
+  <a href="https://discord.gg/xxwmPHU3">
+    <img alt="Discord"
+      src="https://img.shields.io/badge/Discord-DMind-7289da?logo=discord&logoColor=white&color=7289da"/>
   </a>
   <a href="https://opensource.org/licenses/MIT">
     <img alt="Code License: MIT" src="https://img.shields.io/badge/Code%20License-MIT-yellow.svg"/>
@@ -25,6 +30,7 @@
   <a href="MODEL-LICENSE">
     <img alt="Model License: Model Agreement" src="https://img.shields.io/badge/Model%20License-Model%20Agreement-yellow.svg"/>
   </a>
+  
 </div>
 
 ## Table of Contents
