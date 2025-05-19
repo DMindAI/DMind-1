@@ -98,9 +98,9 @@ This multi-level distillation strategy allows DMind-1-mini to maintain high Web3
 
 ![DMind-1 Web3 Performance](figures/normalized-performance-with-price.jpeg)
 
-We evaluate DMind-1 and DMind-1-mini using the [DMind Benchmark](https://huggingface.co/datasets/DMindAI/DMind_Benchmark), a domain-specific evaluation suite designed to assess large language models in the Web3 context. The benchmark includes 1,917 expert-reviewed questions across nine core domain categories, and it features both multiple-choice and open-ended tasks to measure factual knowledge, contextual reasoning, and instruction-following ability.
+We evaluate DMind-1 and DMind-1-mini using the [DMind Benchmark](https://huggingface.co/datasets/DMindAI/DMind_Benchmark), a domain-specific evaluation suite designed to assess large language models in the Web3 context. The benchmark includes 1,917 expert-reviewed questions across nine core domain categories, and it features both multiple-choice and open-ended tasks to measure factual knowledge, contextual reasoning, and other abilities.
 
-To complement accuracy metrics, we conducted a cost-performance analysis by comparing benchmark scores against publicly available input token prices across 24 leading LLMs. In this evaluation:
+To complement accuracy metrics, we conducted a **cost-performance analysis** by comparing benchmark scores against publicly available input token prices across 24 leading LLMs. In this evaluation:
 
 - **DMind-1** achieved the highest Web3 score while maintaining one of the lowest token input costs among top-tier models such as Grok 3 and Claude 3.5 Sonnet.
 
