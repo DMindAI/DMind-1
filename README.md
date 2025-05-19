@@ -102,7 +102,7 @@ We evaluate DMind-1 and DMind-1-mini using the [DMind Benchmark](https://hugging
 
 To complement accuracy metrics, we conducted a **cost-performance analysis** by comparing benchmark scores against publicly available input token prices across 24 leading LLMs. In this evaluation:
 
-- **DMind-1** achieved the highest Web3 score while maintaining one of the lowest token input costs among top-tier models such as Grok 3 and Claude 3.5 Sonnet.
+- **DMind-1** achieved the highest Web3 score while maintaining one of the lowest token input costs among top-tier models such as Grok 3 and Claude 3.7 Sonnet.
 
 - **DMind-1-mini** ranked second, retaining over 95% of DMind-1’s performance with greater efficiency in latency and compute.
 
