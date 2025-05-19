@@ -96,11 +96,17 @@ This multi-level distillation strategy allows DMind-1-mini to maintain high Web3
 
 ## 2. Evaluation Results
 
-![DMind-1 Web3 Performance](figures/dmind-1-web3-performance.jpeg)
+![DMind-1 Web3 Performance](figures/normalized-performance-with-price.jpeg)
 
-We evaluate DMind-1 using the **DMind Benchmark**, a domain-specific evaluation suite tailored to assess large language models in the Web3 context. The benchmark spans 1,917 expert-reviewed questions across nine critical categories—including Blockchain Fundamentals, Infrastructure, Smart Contracts, DeFi, DAO, NFT, Token Economics, Meme, and Security. It combines multiple-choice and subjective open-ended tasks, simulating real-world challenges and requiring deep contextual understanding, which provides a comprehensive assessment of both factual knowledge and advanced reasoning.
+We evaluate DMind-1 and DMind-1-mini using the [DMind Benchmark](https://huggingface.co/datasets/DMindAI/DMind_Benchmark), a domain-specific evaluation suite designed to assess large language models in the Web3 context. The benchmark includes 1,917 expert-reviewed questions across nine core domain categories, and it features both multiple-choice and open-ended tasks to measure factual knowledge, contextual reasoning, and instruction-following ability.
 
-Under this rigorous evaluation, DMind-1 ranked 1st among 24 leading models, outperforming both proprietary (e.g., Grok-3) and open-source (e.g., DeepSeek-R1) LLMs. Notably, our distilled variant DMind-1-mini also performed strongly, ranking 2nd overall. This demonstrates the effectiveness of our compact distillation pipeline.
+To complement accuracy metrics, we conducted a cost-performance analysis by comparing benchmark scores against publicly available input token prices across 24 leading LLMs. In this evaluation:
+
+- **DMind-1** achieved the highest Web3 score while maintaining one of the lowest token input costs among top-tier models such as Grok 3 and Claude 3.5 Sonnet.
+
+- **DMind-1-mini** ranked second, retaining over 95% of DMind-1’s performance with greater efficiency in latency and compute.
+
+Both models are uniquely positioned in the most favorable region of the score vs. price curve, delivering state-of-the-art Web3 reasoning at significantly lower cost. This balance of quality and efficiency makes the DMind models highly competitive for both research and production use.
 
 
 ## 3. Use Cases
