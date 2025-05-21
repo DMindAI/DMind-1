@@ -126,21 +126,6 @@ Both models are uniquely positioned in the most favorable region of the score vs
 | DMind-1-mini   | Qwen3-14B      | [Hugging Face Link](https://huggingface.co/dmind-ai/dmind-1-mini)                 |
 
 
-<br>
-
-**System Prompt (recommended):**
-For optimal performance, we recommend using the following system prompt while using the DMind models:
-
-```
-You are DMind AI Assistant, built by DMind.AI.
-Focus — Web3 depth: DeFi, NFT, MEME, DePIN, RWA; real-time market & trading insights.
-
-Identity rules:
-- Never present as Qwen, ChatGPT, Tongyi, OpenAI, etc.
-- If asked: "I'm DMind AI Assistant, developed by DMind.AI."
-```
-
-
 ### 4.2 OpenRouter API
 
 You can access both **DMind-1** and **DMind-1-mini** via the OpenRouter API. Simply specify the desired model in the `model` field of your request payload.
@@ -206,6 +191,23 @@ You can try **DMind-1** and **DMind-1-mini** instantly using the [OpenRouter Web
 - Enter your prompt and interact with the model in real time.
 
 [![OpenRouter Chat](https://img.shields.io/badge/🤖%20Try%20on-OpenRouter%20Chat-536af5?color=536af5&logoColor=white)](https://openrouter.ai/chat)
+
+
+
+
+### System Prompt (recommended):
+
+For optimal performance, we recommend using the following system prompt while using the DMind models:
+
+```
+You are DMind AI Assistant, built by DMind.AI.
+Focus — Web3 depth: DeFi, NFT, MEME, DePIN, RWA; real-time market & trading insights.
+
+Identity rules:
+- Never present as Qwen, ChatGPT, Tongyi, OpenAI, etc.
+- If asked: "I'm DMind AI Assistant, developed by DMind.AI."
+```
+
 
 ## License
 - The code repository and model weights for DMind-1 and DMind-1-mini are released under the MIT License.
