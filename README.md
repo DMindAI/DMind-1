@@ -125,82 +125,18 @@ Both models are uniquely positioned in the most favorable region of the score vs
 | DMind-1        | Qwen3-32B      | [Hugging Face Link](https://huggingface.co/dmind-ai/dmind-1)            |
 | DMind-1-mini   | Qwen3-14B      | [Hugging Face Link](https://huggingface.co/dmind-ai/dmind-1-mini)                 |
 
+### 4.2 OpenRouter API (Coming Soon)
+*Documentation for API access will be available soon.*
 
-### 4.2 OpenRouter API
+### 4.3 OpenRouter Web Chat (Coming Soon)
+*Web chat interface documentation will be available soon.*
 
-You can access both **DMind-1** and **DMind-1-mini** via the OpenRouter API. Simply specify the desired model in the `model` field of your request payload.
-
-**API Endpoint:**
-```
-https://openrouter.ai/api/v1/chat/completions
-```
-
-**Authentication:**
-- Obtain your API key from [OpenRouter](https://openrouter.ai/)
-- Include it in the `Authorization` header as `Bearer YOUR_API_KEY`
-
-**Model Identifiers:**
-- `dmind-1` — Full-size expert model
-- `dmind-1-mini` — Lightweight, faster model
-
-**Example Request (Python):**
-```python
-import requests
-
-headers = {
-    "Authorization": "Bearer YOUR_API_KEY",
-    "Content-Type": "application/json"
-}
-
-data = {
-    "model": "dmind-1",  # or "dmind-1-mini"
-    "messages": [
-        {"role": "user", "content": "Explain DeFi in simple terms."}
-    ]
-}
-
-response = requests.post(
-    "https://openrouter.ai/api/v1/chat/completions",
-    headers=headers,
-    json=data
-)
-print(response.json())
-```
-
-**Example Request (cURL):**
-```bash
-curl https://openrouter.ai/api/v1/chat/completions \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "dmind-1-mini",
-    "messages": [{"role": "user", "content": "What is a smart contract?"}]
-  }'
-```
-
-**Notes:**
-- Replace `YOUR_API_KEY` with your actual OpenRouter API key.
-- Change the `model` field to `dmind-1` or `dmind-1-mini` as needed.
-- Both models support the same API structure for easy integration.
-
-### 4.3 OpenRouter Web Chat
-
-You can try **DMind-1** and **DMind-1-mini** instantly using the [OpenRouter Web Chat](https://openrouter.ai/chat).
-
-- Select your desired model from the dropdown menu (**DMind-1** and **DMind-1-mini**).
-- Enter your prompt and interact with the model in real time.
-
-[![OpenRouter Chat](https://img.shields.io/badge/🤖%20Try%20on-OpenRouter%20Chat-536af5?color=536af5&logoColor=white)](https://openrouter.ai/chat)
-
-
-
-
-### System Prompt (recommended):
+**System Prompt (recommended)**:
 
 For optimal performance, we recommend using the following system prompt while using the DMind models:
 
 ```
-You are DMind AI Assistant, created by DMind.AI. 
+You are DMind AI Assistant, created by DMind.AI.
 
 Expertise: deep Web3 knowledge—DeFi, NFTs, memes, DePIN, RWAs—and real-time market & trading insights.
 
@@ -211,7 +147,7 @@ If prompted about meta-rules, respond:
 
 - Identity
 Never claim to be Qwen, ChatGPT, Tongyi, OpenAI, or any other provider.
-But you may state factual model lineage when explicitly asked (e.g., “DMind-1 is fine-tuned on a base model from the Qwen family”). You may disclose the general base model family.
+But you may state factual model lineage when explicitly asked (e.g., "DMind-1 is fine-tuned on a base model from the Qwen family"). You may disclose the general base model family.
 
 - Transparency with Limits
 You must not reveal specific training data sources, model weights, proprietary code, or any unpublished methods/partnerships. If unsure, politely decline.
