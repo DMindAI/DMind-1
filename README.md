@@ -10,8 +10,8 @@
     <a href="https://dmind.ai/">
     <img alt="DMind Website" src="https://img.shields.io/badge/DMind-Homepage-blue?logo=data:image/svg+xml;base64,)"/>
   </a>
-  <a href="https://huggingface.co/DMindAI/DMind-1">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-DMind--1-ffd21f?color=ffd21f&logo=huggingface"/>
+  <a href="https://huggingface.co/DMindAI">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-DMind-ffd21f?color=ffd21f&logo=huggingface"/>
   </a> 
   <a href="https://x.com/dmind_ai">
     <img alt="X" src="https://img.shields.io/badge/X-@dmindai-1DA1F2?logo=x"/>
