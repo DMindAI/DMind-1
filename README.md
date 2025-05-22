@@ -16,7 +16,7 @@
   <a href="https://x.com/dmind_ai">
     <img alt="X" src="https://img.shields.io/badge/X-@dmindai-1DA1F2?logo=x"/>
   </a> 
-    <a href="https://openrouter.ai/chat">
+    <a href="https://huggingface.co/spaces/DMindAI/DMind-1">
     <img alt="Chat"
       src="https://img.shields.io/badge/🤖%20Chat-DMind-536af5?color=536af5&logoColor=white"/>
   </a>
