@@ -122,8 +122,8 @@ Both models are uniquely positioned in the most favorable region of the score vs
 
 | **Model**      | **Base Model** | **Download**                                                                 |
 |:--------------:|:--------------:|:----------------------------------------------------------------------------:|
-| DMind-1        | Qwen3-32B      | [Hugging Face Link](https://huggingface.co/dmind-ai/dmind-1)            |
-| DMind-1-mini   | Qwen3-14B      | [Hugging Face Link](https://huggingface.co/dmind-ai/dmind-1-mini)                 |
+| DMind-1        | Qwen3-32B      | [Hugging Face Link](https://huggingface.co/DMindAI/DMind-1)            |
+| DMind-1-mini   | Qwen3-14B      | [Hugging Face Link](https://huggingface.co/DMindAI/DMind-1-mini)                 |
 
 ### 4.2 OpenRouter API (Coming Soon)
 *Documentation for API access will be available soon.*
